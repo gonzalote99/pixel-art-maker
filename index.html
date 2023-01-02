@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link rel="stylesheet" href="styles.css">
+  <title>pixel art maker</title>
+</head>
+<body>
+  <h1>pixel art maker</h1>
+  <form id="sizePicker">
+   grid height: 
+   <input type="number" id="inputHeight" name="height" min="1" max="20">
+   grid width: 
+   <input type="number" id="inputWidth" name="width" min="1" max="20">
+   <input type="submit">
+
+  </form>
+  <h2>pick a color</h2>
+  <input type="color" id="colorPicker">
+  <h2>design canvas</h2>
+  <table id="pixelCanvas"></table>
+  <h3>toggle grid: <button button type="button" id="gridToggle">on/off</button> </h3>
+ <h2>click to <span class="fill">fill</span> / right-click to <span class="erase">erase</span></h2>
+ 
+<script src="script.js"></script>
+
+</body>
+</html>
